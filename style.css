@@ -66,3 +66,7 @@ background: #dddfbf;
 padding: 20px;
 margin: 0 30px;
 }
+
+.code-output {
+  margin: 0 30px;
+}
