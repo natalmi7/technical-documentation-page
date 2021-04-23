@@ -76,8 +76,51 @@
     </section>
     <section id="Lists" class="main-section">
       <header>Lists</header>
-      <p></p>
-      <code></code>
+      <p>There are two types of lists in HTML: unordered lists and ordered lists.</p>
+      <h3>Unordered</h3>
+      <p>Unordered lists are used to mark up lists of items for which the order of the items doesn't matter. Let's take a shopping list as an example:</p>
+      <p class="code-p"><code>
+        milk<br>
+        eggs<br>
+        bread<br>
+        hummus
+      </code></p>
+      <p>Every unordered list starts off with a &lt;ul&gt; element—this wraps around all the list items:</p>
+      <p class="code-p"><code>
+        &lt;ul&gt;<br>
+          milk<br>
+          eggs<br>
+          bread<br>
+          hummus<br>
+        &lt;/ul&gt;
+      </code></p>
+      <p>The last step is to wrap each list item in a &lt;li&gt; (list item) element:</p>
+      <p class="code-p"><code>
+        &lt;ul&gt;<br>
+          <span>&lt;li&gt;milk&lt;/li&gt;</span><br>
+          <span>&lt;li&gt;eggs&lt;/li&gt;</span><br>
+          <span>&lt;li&gt;bread&lt;/li&gt;</span><br>
+          <span>&lt;li&gt;hummus&lt;/li&gt;</span><br>
+        &lt;/ul&gt;
+      </code></p>
+      <h3>Ordered</h3>
+      <p>Ordered lists are lists in which the order of the items does matter. Let's take a set of directions as an example:</p>
+      <p class="code-p"><code>
+        Drive to the end of the road<br>
+        Turn right<br>
+        Go straight across the first two roundabouts<br>
+        Turn left at the third roundabout<br>
+        The school is on your right, 300 meters up the road
+      </code></p>
+      <p>The markup structure is the same as for unordered lists, except that you have to wrap the list items in an <code>&lt;ol&gt;</code> element, rather than <code>&lt;ul&gt;</code>:</p>
+      <p class="code-p"><code>&lt;ol&gt;<br>
+        <span>&lt;li&gt;Drive to the end of the road&lt;/li&gt;</span><br>
+        <span>&lt;li&gt;Turn right&lt;/li&gt;</span><br>
+        <span>&lt;li&gt;Go straight across the first two roundabouts&lt;/li&gt;</span><br>
+        <span>&lt;li&gt;Turn left at the third roundabout&lt;/li&gt;</span><br>
+        <span>&lt;li&gt;The school is on your right, 300 meters up the road&lt;/li&gt;</span><br>
+        &lt;/ol&gt;
+      </code></p>
     </section>
     <section id="Buttons" class="main-section">
       <header>Buttons</header>

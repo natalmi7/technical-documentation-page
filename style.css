@@ -60,6 +60,11 @@ body {
   margin-bottom: 30px;
 }
 
+.main-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 .code-p {
 border-left: solid rgb(6, 6, 146);
 background: #dddfbf;
@@ -73,4 +78,7 @@ margin: 0 30px;
 
 #link:hover {
   text-decoration: none;
+}
+span {
+  margin-left: 10px;
 }
