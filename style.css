@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  background-color: #f4f4f4;
 }
 
 #navbar {
@@ -47,4 +48,21 @@ body {
   position: absolute;
   margin-left: 270px;
   padding: 20px;
+}
+
+.main-section header {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.main-section p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.code-p {
+border-left: solid rgb(6, 6, 146);
+background: #dddfbf;
+padding: 20px;
+margin: 0 30px;
 }
