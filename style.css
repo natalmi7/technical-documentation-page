@@ -70,3 +70,7 @@ margin: 0 30px;
 .code-output {
   margin: 0 30px;
 }
+
+#link:hover {
+  text-decoration: none;
+}
